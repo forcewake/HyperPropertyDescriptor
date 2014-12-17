@@ -16,13 +16,8 @@ configuration: Release
 build:
   project: src/HyperPropertyDescriptor.sln
 
-before_build:
-  - cmd: cd src
-  - cmd: nuget restore
-  - cmd: cd ..
-
 after_test:
-  - ps: .\.nuget\pack.ps1
+  - ps: .\assets\pack.ps1
 
 deploy:
   provider: NuGet

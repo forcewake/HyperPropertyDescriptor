@@ -16,14 +16,14 @@
     <tags>HyperDescriptor property access Reflection PropertyDescriptor GetValue</tags>
   </metadata>
   <files>
-    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.dll" target="lib/net35" />
-    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.XML" target="lib/net35" />
-    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.pdb" target="lib/net35" />
-    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.dll" target="lib/net40" />
-    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.XML" target="lib/net40" />
-    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.pdb" target="lib/net40" />
-    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.dll" target="lib/net45" />
-    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.XML" target="lib/net45" />
-    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.pdb" target="lib/net45" />
+    <file src="..\src\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.dll" target="lib/net35" />
+    <file src="..\src\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.XML" target="lib/net35" />
+    <file src="..\src\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.pdb" target="lib/net35" />
+    <file src="..\src\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.dll" target="lib/net40" />
+    <file src="..\src\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.XML" target="lib/net40" />
+    <file src="..\src\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.pdb" target="lib/net40" />
+    <file src="..\src\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.dll" target="lib/net45" />
+    <file src="..\src\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.XML" target="lib/net45" />
+    <file src="..\src\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.pdb" target="lib/net45" />
   </files>
 </package>
