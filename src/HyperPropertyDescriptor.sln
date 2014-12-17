@@ -9,7 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{82742E
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{42DA7FD8-C73C-486C-A753-D2F40A412DB2}"
@@ -19,6 +18,17 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hyper.ComponentModel.Example", "Hyper.ComponentModel.Example\Hyper.ComponentModel.Example.csproj", "{77094346-EBD5-4D78-B036-C90C6B5B98D8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05676A7C-2D4F-4BF3-8A31-C67648E21E02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{F115C7FA-0E18-4C6D-A270-1EF743687EDE}"
+	ProjectSection(SolutionItems) = preProject
+		..\appveyor.yml = ..\appveyor.yml
+		.nuget\Hyper.ComponentModel.nuspec = .nuget\Hyper.ComponentModel.nuspec
+		..\LICENSE = ..\LICENSE
+		.nuget\pack.ps1 = .nuget\pack.ps1
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{3128F9F7-383F-4829-8C59-B7CD48365968}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

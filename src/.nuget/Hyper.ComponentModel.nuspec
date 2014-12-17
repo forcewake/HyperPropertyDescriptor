@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>HyperDescriptor</id>
+    <version>$version$</version>
+    <title>HyperDescriptor</title>
+    <authors>mgravell, forcewake</authors>
+    <owners>forcewake</owners>
+    <licenseUrl>https://raw.githubusercontent.com/forcewake/HyperPropertyDescriptor/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/forcewake/HyperPropertyDescriptor</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/forcewake/HyperPropertyDescriptor/master/assets/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides a vastly accelerate runtime property implementation that can be applied even to closed-source classes</description>
+    <releaseNotes>First public release.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>HyperDescriptor property access Reflection PropertyDescriptor GetValue</tags>
+  </metadata>
+  <files>
+    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.dll" target="lib/net35" />
+    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.XML" target="lib/net35" />
+    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.pdb" target="lib/net35" />
+    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.dll" target="lib/net40" />
+    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.XML" target="lib/net40" />
+    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.pdb" target="lib/net40" />
+    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.dll" target="lib/net45" />
+    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.XML" target="lib/net45" />
+    <file src="..\Hyper.ComponentModel\bin\Release\Hyper.ComponentModel.pdb" target="lib/net45" />
+  </files>
+</package>

@@ -1,5 +1,6 @@
-HyperPropertyDescriptor
+HyperPropertyDescriptor [![Build status](https://ci.appveyor.com/api/projects/status/mrh9e5e7m5uncdsu?svg=true)](https://ci.appveyor.com/project/forcewake/hyperpropertydescriptor)
 =======================
+![logo](https://raw.githubusercontent.com/forcewake/HyperPropertyDescriptor/master/assets/icon.png)  
 
 Provides a vastly accelerate runtime property implementation that can be applied even to closed-source classes
 
