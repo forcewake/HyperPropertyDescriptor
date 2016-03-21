@@ -3,6 +3,7 @@ namespace Hyper.ComponentModel
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
+    using System.Security;
     using System.Security.Permissions;
 
     public sealed class HyperTypeDescriptionProvider : TypeDescriptionProvider
@@ -64,7 +65,8 @@ namespace Hyper.ComponentModel
             }
         }
 
-        [ReflectionPermission(SecurityAction.Assert, Flags = ReflectionPermissionFlag.AllFlags)]
+        [SecuritySafeCritical]
+        [ReflectionPermission(SecurityAction.Assert, Unrestricted = true)]
         private ICustomTypeDescriptor BuildDescriptor(Type objectType)
         {
             // NOTE: "descriptors" already locked here
